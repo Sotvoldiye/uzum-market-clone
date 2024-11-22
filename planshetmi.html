@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cffe.css">
+  <link rel="stylesheet" href="./telefon.css">
+  <link rel="stylesheet" href="./olcham.css">
+  <link rel="stylesheet" href="./responsiv.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./telefon.css">
+</head>
+<body>
+  <!-- navigatsion qismi -->
+  <!-- navbar1 boshi -->
+  <div class="navbar">
+    <div class="logotip"">
+    <img src="./Без названия.svg" alt=""><span><a href="./index.html">Uzum Market</a></span>
+    </div>
+    <div class="button">
+      <i class="fa-regular fa-newspaper">Katalog</i>
+    </div>
+
+    <div class="search-container">
+      <form class="search" action="">
+        <input type="search" placeholder="Search here..." required>
+      <i class="fa-solid fa-magnifying-glass"></i>
+      </form> 
+  </div>
+   
+    <div class="btn-kirish">
+    
+    <button>
+      <i class="user" id="user-btn" class="fa-regular fa-user"><span class="span">Kirish</span></i>
+    </button>
+     <!-- modal -->
+      <div class="modal-kirish hidden" id="modal-kirish">
+      <div class="modal-header">
+        <button class="btn close-btn" id="close-btn">
+          <i class="fas fa-close"></i>
+        </button>
+        </div>
+
+      <div class="modal-body">
+      <p class="tel-raqam">Telefon raqamni kiriting </p>
+      <p class="t-kod">Tasdiqlash kodini SMS orqali yuboramiz </p>
+     
+      <form id="signup-form">
+        <input type="text" id="number" placeholder="+998 000-00-00" />
+        <button type="submit" class="submit">Submit</button>
+      </form>
+  
+      <div class="message"></div>
+  
+      <p class="yoqriqnom">
+        Avtotizatsiyadan o'tish orqali siz<a href="#">shaxsiy <br> ma'lumotlarni qayta ishlash siyosatiga <br> rozilik bildirasiz</a>
+</p>
+</div>
+
+      
+    </div> 
+    </div>
+    
+    <div class="overlay hidden" id="overlay"></div>
+
+     <!-- modal oxiri -->
+     <div class="btn-saralangan">
+     <button class="heart" id="heart">
+      <i class="fa-regular fa-heart"><span class="span">Saralangan</span></i>
+     </button>
+     </div>
+     <div class="btn-savat">
+     <button class="shopping" id="shopping"><i class="fa-solid fa-bag-shopping"><span class="span">Savatcha</span></i></button>
+     
+    </div>
+    </div>
+    <!-- nabra1 oxiri -->
+    <!-- navbar2 boshi -->
+    <div class="navbar2">
+      <p class="aksiya">
+     <img src="./planshet/planshet4/11111 (1).png"  alt="">11.11
+      </p>
+      <p class="aksiya">
+        <img src="./planshet/planshet4/_vyg.png"width="22px" alt="">Har kuni foyda</p>
+        <div class="texnika">
+       
+          <a class="texnika1" href="./badge_bought.webp">Elektronika</a>
+         
+         
+          <a class="texnika2" href="">Maishiy texnika</a>
+         
+         
+          <a class="texnika3" href="">Kiyim</a>
+      
+       
+          <a class="texnika4" href="">Poyabzal</a>
+       
+        
+          <a class="texnika5" href="">Aksesuarlar</a>
+      
+      
+          <a class="texnika6" href="">G'o'zallik va parvarish</a>
+         
+          
+          <a class="texnika7" href="">Salomatlik</a>
+      
+
+            <a class="texnika8" href="">Uy-ro'zg'or buyumlari</a>
+          
+    
+            <a class="texnika9" href="">Yana<i class="fa-solid fa-chevron-down fa-xs"></i></a>
+    
+    </div>
+    </div>
+      <!-- navbar2 oxiri -->
+      <!-- asosiy qism -->
+    <div class="body">
+      <!-- mi nomi boshi -->
+     <div class="rasm">
+      <p class="malumot">Planshet Xiaomi Redmi Pad SE 8.7" 4G 2x nano sim-karta, IPS, 8 MP kamera, 6650 mAh
+      </br>
+      <!-- mi nomi oxiri -->
+      <!-- reyting boshi -->
+      <p class="reyting">⭐⭐⭐⭐ 4.9(123). 13fotosurat . +300 buyurtma </p>
+      <!-- reyting oxiri -->
+   <!-- rasimlar boshi -->
+      <div class="img">
+        <!-- chekadagi rasm boshi-->
+        <div class="img01" id="img02">
+          <div id="planshetimg1">
+          <img src="./planshetmiimg/planshetmi1.jpg" width="63px" height="84px" alt="">
+          </div>
+          <div id="planshetimg2">
+          <img src="./planshetmiimg/planshetmi2.jpg" width="63px" height="84px" alt="">
+          </div>
+          <div id="planshetimg3">
+          <img src="./planshetmiimg/planshetmi3.jpg" width="63px" height="84px" alt="">
+          </div>
+          <div id="planshetimg4">
+          <img src="./planshetmiimg/palnshetmi4.jpg" width="63px" height="84px" alt="">
+          </div>
+          <div class="planshetimg5">
+          <img src="./planshetmiimg/planshetmi5.jpg" width="63px" height="84px" alt="">
+            </div>
+        </div>
+        <!--chekadagi rasm oxiri  -->
+        <!-- ikkita kata rasm boshi-->
+     <div class="img1" id="img21">
+       <img src="./planshetmiimg/planshetmi1.jpg" width="351px" height="490px" alt="">
+     </div>
+     <div class="img2" id="img22">  
+      <img src="./planshetmiimg/planshetmi2.jpg" width="350px" height="500px" alt="">
+     </div> 
+     <!-- ikkita kata rasm oxiri -->
+     <!-- rasimlar oxiri -->
+      </div>
+      <!-- comentariyalar -->
+      <div class="cofferasmlar">
+       <p>4.9 ⭐⭐⭐⭐ <a href="1559 sharh"></a></p> 
+       <!-- comentariya coffe rasmi  boshi-->
+       <div class="coffe-grid">
+        <img class="coffe-g coffe1"   src="./planshet/planshet2/csm9brtpq3go3q2ibbh0.jpg" width="82px" height="82px" alt="">
+        <img class="coffe-g coffe2" src="./planshet/planshet2/crhe1lfs09cvvbjroo90.jpg" width="82px" height="82px" alt="">
+        <img class="coffe-g coffe3" src="./planshet/planshet2/crcqth7s09cvvbjqjd60.jpg" width="82px" height="82px" alt="">
+        <img class="coffe-g coffe4" src="./planshet/planshet2/cqjkfncqvsse8letl6p0.jpg" width="82px" height="82px" alt="">
+        <img class="coffe-g coffe5" src="./planshet/planshet2/cqhoqjksslomdvni9vmg.jpg" width="82px" height="82px" alt="">
+        <img class="coffe-g coffe6" src="./planshet/planshet2/cqhoqiffrr8a72r5sfjg.jpg" width="82px" height="82px" alt="">
+        <img class="coffe-g coffe7" src="./planshet/planshet2/cqhoqissslomdvni9vm0.jpg" width="82px" height="82px" alt="">
+        <img class="coffe-g coffe8" src="./planshet/planshet2/cqcetbssslotj05l1fp0.jpg" width="82px" height="82px" alt="">
+        <img class="coffe-g coffe9" src="./planshet/planshet2/cqcetaffrr885gh2i690.jpg" width="82px" height="82px" alt="">
+      
+       </div>
+      </div>
+       <!-- camentarya coffe rasmi oxiri -->
+       <!-- comnetarya boshi-->
+      <div class="comentarya">
+        <div class="komentSayora">
+          <p class="sayora">O'lga ⭐⭐⭐⭐⭐ </p>
+          <p>5-sentyabr</p>
+          <p class="xotira">Xotira:8/256GB | Rang:Kulrang</p>
+          <p><span class="izoh">Izoh:</span> 
+            Ajoyib planshet, buyurtma bergan kunimdan keyingi kunda yetib keldi. 2oydan beri foydalanmoqdaman — hammasi a'lo darajada. Sotuvchi va mahsulotni ishonch bilan tavsiya qilishim mumkin.<a href="a">Batafsil</a></p>
+        </div>
+        <div class="komentSayora">
+          <p class="sayora">Antonina ⭐⭐⭐⭐⭐</p>
+          <p>2023 18-noyabr</p>
+            <p><span class="izoh">Izoh</span>Ajoyib planshet, qizim uni maktabga olib boradi. Og‘ir darsliklar o‘rniga foydalanmoqda, ular tufayli sumkasi yirtilgan va gavdasi buzilgan edi. <a href="#">Batafsil</a></p>
+        </div>
+
+
+
+      </div>
+      <!-- comentarya oxiri -->
+      </div>
+      <div class="narxi-yetkazib">
+        <!-- telefon rangi boshi -->
+        <div class="qisqa-malumot">
+          <p >Rang: <span id="rang"></span></p>
+          <p><img id="rasm1" src="./planshetmiimg/cr1hqvlbnta1ogm67k80.jpg" alt="" width="56px" height="82px">
+          <img id="rasm2" src="./planshetmiimg/cr1hqbviraat934q0t20.jpg" alt=""  width="56px" height="82px"></p>
+          <p class="xotira">Xotira</p>
+         <button id="click1">4GB | 64GB</button> 
+         <button id="click2">4GB | 128GB</button> 
+         <button id="click3">GB | 128GB</button>
+         
+            
+
+        </div>
+        <!-- telefon rangi oxiri  -->
+        <!-- modal2 boshi -->
+        <p id="size-info">O'lchamlar haqida batafsil</p>
+
+        <div id="modal1" class="hidden">
+          <div class="modal-header"><p>Olchamlar jadvali</p>   <button class="close-btn" id="close-modal"><i class="fas fa-close"></i></button></div>
+          <div class="modal-body">
+            <p>Balandligi: 211,58 mm</p>
+            <p>Kengligi: 125,48 mm</p>
+            <p>Qalinligi: 8,8 mm</p>
+            <p>Og'irligi: 370 gr</p>
+          </div>
+        
+        </div>
+
+        <div id="overlay1" class="hidden"></div>
+        <!-- modal2 oxiri -->
+        <!-- narx haqida malumot oxiri -->
+      <div class="narxi" id="narxi">
+        <p class="son" id="son">1 789 000 so'm <del>3 229 000</del></p>
+        <p class="qarz" id="qarz"><span>oyiga 126 720 so'mdan</span>muddatli to'lov<i class="fa-solid fa-chevron-right"></i></p>
+       <div class="sotibolish">
+        <p class="text">1 klikda harid qilish </p>
+        <p class="like"><i class="fa-regular fa-heart fa-xl"></i>
+        </p>
+        </div>
+        <a class="button" id="button" href="#">Savatga qo'shish</a>
+        <div class="qoldiq" id="qoldiq">
+          <img src="./Без названия1.svg" alt="" width="32px"> 
+          <p>Bor-yo'g'i 2dona qoldi</p>
+        </div>
+        <div class="haridqilinganlari">
+        <img src="./badge_bought.webp" alt="" width="32px">
+          <p>Bu haftada 33 kishi sotib oldi</p>
+        </div>
+        </div>
+        <!-- narx haqida malumot oxiri -->
+        <!-- yetkazib berish boshi -->
+        <div class="yetkazib-berish">
+         <div class="dostavka">   
+          <h3>Yetkazib berish 1 kunda</h3>
+          <p class="ombor">Uzum Market ombori</p>
+         </div>  
+            <p class="kuryer">Uzum buyurtmalarni topshirish punktida yoki kuryer <br> orqali</p>
+            <hr>
+           <div class="dostavka1">
+          <h3 class="qulay">Qulay usulda xafsiz to'lov </h3>
+          <p class="kuryer"> Karta orqali, naqd pul yoki bo'lib to'lang</p>
+           
+            <img  src="./plastikkarta rasmi/uzumbank.webp" alt="">
+            <img src="./plastikkarta rasmi/uzumnasiya.png" width="32px" alt="">
+            <img src="./plastikkarta rasmi/uzkard.webp" alt="">
+            <img src="./plastikkarta rasmi/" alt="">
+            <img src="./plastikkarta rasmi/humo.png" alt="" width="30px">
+            <img src="./plastikkarta rasmi/VisaCard.jpg" alt="" width="42px">
+            <img src="./plastikkarta rasmi/mastercard.png" alt="" width="32px">
+            <img src="./plastikkarta rasmi/Без названия.png" width="36px" alt="">
+          
+            <hr>
+            <h3 class="qulay">Qaytarish oson va tez </h3>
+          <p class="kuryer">Tovarlarni 10 kun ichida qabul qilamiz va darhol <br> pulini qaytaramiz.</p>
+           </div> 
+        </div>
+        <!-- yetkazib berish oxiri -->
+        <!-- dokon haqida boshi -->
+        <div class="dokon">
+          <div class="flex">
+           <img src="./planshet/planshet2/cmrl7i9s99ouqbfsc3pg.jpg" alt=""><p class="jacobs"><span class="jacob">Matrix Z </span class="jacob">⭐4.8 (61 baho)</></p>
+         </div>
+          <a class="otish" href="#">Dokonga o'tish</a>
+         </div>
+         <!-- dokon haqida oxiri -->
+       </div>
+    </div>
+    <div class="hammasi"><a href="#">Hamma sharhlarni ko'rish</a></div>
+        <!-- body oxiri -->
+        <!-- telefon haqida malumot boshi -->
+      <div class="mahsulotTavsifi">
+        <a href="#">Mahsulot tavsifi</a>
+      <div class="ul">
+        <div class="ul1">
+        <ul>
+          <li>
+          Ishlab chiqaruvchining rasmiy kafolati: 1 yil.
+        </li>
+        <li>
+          Ushbu gadjet 2.4 GGsgacha tezlik olish qobiliyatiga ega bo‘lgan 6-nm texjarayon va 8 yadrolarga ega bo‘lgan Snapdragon® 680 protsessor bilan jihozlangan, bu barcha ilovalar va dasturlarning tez va ravon ishlashini ta’minlaydi.
+        </li>
+        <li>
+          FullHD+ tiniqlik va 90 Gsgacha yangilanish chastotaga ega bo‘lgan 11-dyuymli displey haqqoniy va yorqin tasvirlardan bahramand bo‘lishga imkon beradi. 8 bit ranglar chuqurligi va 16,7 million ranglar tasvirning ajoyib sifatini ta’minlaydi.
+        </li>
+        <li>255.53 * 167.08 * 7.36 mm katta o‘lchami va 478 g katta bo‘lmagan og‘irlik bilan ushbu planshet videoaloqa, o‘qish yoki o‘yinlar uchun yuksak darajadagi qurilma bo‘lib qoladi. Aluminiy quymasidan yaxlit korpus esa uni stildagi va mustahkam qiladi.</li>
+        <li>To‘rtta dinamiklar va Dolby Atmos® qo‘llab-quvvatlashi yuqori tiniqlikdagi tovushni kafolatlaydi. 3,5 mm quloqchinlar uchun raz’yom esa, hattoki shovqin joylarda, sevimli filmlarni ko‘rish yoki musiqani eshitish imkonini beradi.
+        </li>
+        </ul>
+        </div>
+        <div class="ul2">
+        <ul>
+          <li>
+            Ikki Wi-Fi diapazonlarini qo‘llab-quvvatlash: 2.4 GGs va 5 GGs, Bluetooth 5.0 boshqa qurilmalarga va internet tarmog‘iga barqaror va tez ulanishni ta’minlaydi.
+          </li>
+          <li>
+            Planshet o‘z ichiga LPDDR4X 4/6/8GB operativ xotirani va eMMC 5.1 128/256GB ichki xotirani kiritadi, bu ma’lumotlarning katta miqdorini saqlashga va ularga ishlov berishning yuqori tezligini ta’minlash imkonini beradi
+          </li>
+          <li>
+            8 Mp asosiy kamera va 5 Mp frontal kamera bilan planshet videokonferensiyalar yoki shoshilinch detallashtirilgan fotolar uchun a’lo darajada mos keladi
+          </li>
+          <li>
+            8000 mA/soat sig‘imdagi akkumulator doimiy qo‘shimcha quvvatlash zaruratisiz uzoq ishlash vaqtini ta’minlaydi. Redmi Pad SE Android 13 bazasidagi MIUI Pad 14da ishlaydi, u ko‘pgina foydali funksiyalarni taqdim etadi va avtonomlikni oshmiradi.
+          </li>
+          <li>
+            Redmi Pad SE plansheti bilan yuksak texnologiyalar dunyosiga sho‘ng‘ing. U o‘qish va o‘yinlar hamda ish uchun ham birdek mos keladi. Planshetning yaxshi unumdorligi sharofati bilan, masalan, PUBG Mobile o‘yinida, siz 60 FPSgacha olasiz.
+          </li>
+        
+        </ul>
+      </div>
+      </div>
+        <p class="redmi-p">Siz kimligingiz muhim emas - talaba, ota-ona yoki ishbilarmon odam, Redmi Pad SE sizning o‘qishdagi, ishdagi yoki ko‘ngilochishingizdagi betakror yordamchi bo‘lib qoladi.
+        </p>
+        
+        <div class="redmi"><p class="redmi-title">Unumdorlik yuksaklarda </p>
+         <div class="redmi-body"> Gadjetning yuragi bo‘lib 6-nm texjarayon va 8 yadrolarga ega bo‘lgan Snapdragon® 680 protsessori hisoblanadi, u 2.4 GGsgacha tezlik olishi mumkin. 4/6/8GB operativ xotira va 128/256GB eMMC 5.1 ichki xotira tezkor LPDDR4X bilan uyg‘unlikda, siz, hattoki eng talabgir ilovalarda ham uzluksiz ishni qo‘lga kiritasiz. Bunda, Snapdragon 680 Mobile Platform arxitekturali 6-nm bilan chip minimum energiyani iste’mol qilib, jarayonlarni tartiblashtiradi, 8000 mA*soat sig‘imdagi batareya esa butun ish kuniga avtonomlikni hadya qilib, 14 soatgacha videolarni tomosha qilishni ta’minlaydi. 
+          </div>
+          </div>
+          <div class="redmi"><p class="redmi-title">Trendli estetika</p> 
+          <div class="redmi-body">
+            478 g og‘irlik va 255.53 * 167.08 * 7.36 mm o‘lchamlar bilan aluminiy quymasidan yassi yaxlit korpus o‘zining sipo o‘lchamlari bilan va sinchkovlik o‘ylab chiqilgan dizaynerlik konsepsiyasi bilan rom qiladi. Model stili Redmi Note 12 devaysi lineykasi bilan a’lo darajada sinxronlashadi: zamonaviy estetikaning va funksional minimalizmning sifatli uyg‘unligi. Bularning barchasini siz "Aqlli uy" do‘konidan xarid qilishingiz mumkin.
+          </div>
+        </div>
+        <div class="redmi">
+          <p class="redmi-title">Taassurotli vizual sifat</p>
+          <div class="redmi-body">
+            FullHD+ tiniqlik va 90 Gsgacha yangilanish chastotasiga ega bo‘lgan 11-dyuymli displey 8 bit va 16,7 million ranglarning chuqur rang gammasini taklif qilib, ko‘zni quvontiradi.
+          </div>
+        </div>
+        <div class="redmi">
+          <p class="redmi-title">Foto va video murosasiz</p>
+          <div class="redmi-body">
+            8 Mp asosiy kamera va 5 Mp frontal kamera bilan planshet konferensiyalar, videoaloqa yoki oddiygina sifatli fotosuratga olish uchun a’lo darajada mos keladi.
+          </div>
+        </div>
+        <div class="redmi">
+          <p class="redmi-title">To'rta oqim kuchi</p>
+          <div class="redmi-body">Hi-Res Audio va Dolby Atmos® texnologiyalarni qo‘llab-quvvatlovchi to‘rtta dinamiklar taassurotli haqiqiylik bilan kontentni ovozlashtirib beradi. Bunday audiotizim bilan siz go‘yo kinoteatrda bo‘lgandek o‘zingizni his qilasiz. Bunda, 3.5 mm quloqchinlar uchun raz’yom yolg‘izlikda musiqadan bahramand bo‘lish imkonini beradi - faqat siz va sevimli Redmi Pad SE. 
+          </div>
+          </div>
+          <div class="redmi">
+            <p class="redmi-title">Zamonaviy OT va ulanish</p>
+            <div class="redmi-body">
+              Android 13 bazasidagi MIUI Pad 14dolzarb yangilanishlarni va xavfsizlikni ta’minlaydi. 2,4 GGs va 5 GGs chastotalarda va Bluetooth 5.0.da Wi-Fi sharofati bilan tarmoqqa tezkor ulanish.
+            </div>
+          </div>
+          <div class="redmi">
+            <p class="redmi-title">Barcha uchun universal planshet</p>
+            <div class="redmi-body">
+              Ko‘ngilochishni va o‘qishni ta’minlab, bolalar uchun planshet sifatida qanday bo‘lsa, o‘qish yoki biznes-konferensiya uchun planshet sifatida ham xuddi shunday a’lo darajada mos keladi. Va, albatta, geymerlar uchun! Shunday qilib, masalan, PUBG Mobile o‘yinida ~60 FPSda ishlaydi!
+            </div>
+          </div>
+        </div>
+        <!-- telefon haqida malumot oxiri -->
+        <!-- boshqa baxsulotlar rasmi boshi-->
+        <div class="oxshash-tovarlar">
+          <h2 class="h2">O'xshash tovarlar</h2>
+          <div class="telefon-flex">
+  <div class="telefon1">
+  <div class="image-container">
+      <img src="./planshet/planshet3/cqfs5cffrr8a72r5gbkg.jpg" alt="Rasm" class="image" width="227px" height="302px">
+      <i class="icon fas fa-heart heart"></i> 
+  </div>
+  <div class="telefon-text">
+    <p class="tel-nomi">Planshet Samsung Galaxy Tap A9</p>
+    <p class="sharhlar">
+      ⭐4.8 (35 sharhlar)
+    </p>
+    <p class="nasiyaga">167 095 so'm/oyiga</p>
+    <p class="asli-n"><del>5 500 000</del></p>
+    <p class="narx">2 359 000</p>
+  </div>
+  </div>
+  <div class="telefon2">
+    <div class="image-container">
+        <img src="./planshet/planshet3/cr552gtbnta1ogm73ltg.jpg" alt="Rasm" class="image" width="227px" height="302px">
+        <i class="icon fas fa-heart heart"></i> 
+    </div>
+    <div class="telefon-text">
+      <p class="tel-nomi">Planshet Samsung Galaxy Tap A9</p>
+      <p class="sharhlar">
+        ⭐4.8 (35 sharhlar)
+      </p>
+      <p class="nasiyaga">167 095 so'm/oyiga</p>
+      <p class="asli-n"><del>5 500 000</del></p>
+      <p class="narx">2 359 000</p>
+    </div>
+    </div>
+    <div class="telefon3">
+    <div class="image-container">
+        <img src="./planshet/planshet3/cqtj5d7iraat934p3ca0.jpg" alt="Rasm" class="image" width="227px" height="302px">
+        <i class="icon fas fa-heart heart"></i> 
+    </div>
+    <div class="telefon-text">
+      <p class="tel-nomi">Planshet Samsung Galaxy Tap A9</p>
+      <p class="sharhlar">
+        ⭐4.8 (35 sharhlar)
+      </p>
+      <p class="nasiyaga">167 095 so'm/oyiga</p>
+      <p class="asli-n"><del>5 500 000</del></p>
+      <p class="narx">2 359 000</p>
+    </div>
+    </div>
+    <div class="telefon4">
+    <div class="image-container">
+        <img src="./planshet/planshet3/cq19f1gsarnfdo9a1ueg.jpg" alt="Rasm" class="image" width="227px" height="302px">
+        <i class="icon fas fa-heart heart"></i> 
+    </div>
+    <div class="telefon-text">
+      <p class="tel-nomi">Planshet Samsung Galaxy Tap A9</p>
+      <p class="sharhlar">
+        ⭐4.8 (35 sharhlar)
+      </p>
+      <p class="nasiyaga">167 095 so'm/oyiga</p>
+      <p class="asli-n"><del>5 500 000</del></p>
+      <p class="narx">2 359 000</p>
+    </div>
+    </div>
+    <div class="telefon5">
+      <div class="image-container">
+          <img src="./planshet/planshet3/cs8mf4lpq3ghb2qjike0.jpg" alt="Rasm" class="image" width="227px" height="302px">
+          <i class="icon fas fa-heart heart"></i> 
+      </div>
+      <div class="telefon-text">
+        <p class="tel-nomi">Planshet Samsung Galaxy Tap A9</p>
+        <p class="sharhlar">
+          ⭐4.8 (35 sharhlar)
+        </p>
+        <p class="nasiyaga">167 095 so'm/oyiga</p>
+        <p class="asli-n"><del>5 500 000</del></p>
+        <p class="narx">2 359 000</p>
+      </div>
+      </div>
+      </div>
+      </div>
+    
+      <div class="oxshash-tovarlar">
+        <h2 class="h2">  Bu mahsulot bilan birga sotib olinadi.</h2>
+        <div class="telefon-flex">
+<div class="telefon1">
+<div class="image-container">
+    <img src="./planshet/planshet4/cskrt25pq3ghb2qmughg.jpg" alt="Rasm" class="image" width="227px" height="302px">
+    <i class="icon fas fa-heart heart"></i> 
+</div>
+<div class="telefon-text">
+  <p class="tel-nomi">Planshet Samsung Galaxy Tap A9</p>
+  <p class="sharhlar">
+    ⭐4.8 (35 sharhlar)
+  </p>
+  <p class="nasiyaga">167 095 so'm/oyiga</p>
+  <p class="asli-n"><del>5 500 000</del></p>
+  <p class="narx">2 359 000</p>
+</div>
+</div>
+<div class="telefon2">
+  <div class="image-container">
+      <img src="./planshet/planshet4/cmfs7krifoubkc6nmtc0.jpg" alt="Rasm" class="image" width="227px" height="302px">
+      <i class="icon fas fa-heart heart"></i> 
+  </div>
+  <div class="telefon-text">
+    <p class="tel-nomi">Planshet Samsung Galaxy Tap A9</p>
+    <p class="sharhlar">
+      ⭐4.8 (35 sharhlar)
+    </p>
+    <p class="nasiyaga">167 095 so'm/oyiga</p>
+    <p class="asli-n"><del>5 500 000</del></p>
+    <p class="narx">2 359 000</p>
+  </div>
+  </div>
+  <div class="telefon3">
+  <div class="image-container">
+      <img src="./planshet/planshet4/co3c2d5lqsilsr3lg3sg.jpg" alt="Rasm" class="image" width="227px" height="302px">
+      <i class="icon fas fa-heart heart"></i> 
+  </div>
+  <div class="telefon-text">
+    <p class="tel-nomi">Planshet Samsung Galaxy Tap A9</p>
+    <p class="sharhlar">
+      ⭐4.8 (35 sharhlar)
+    </p>
+    <p class="nasiyaga">167 095 so'm/oyiga</p>
+    <p class="asli-n"><del>5 500 000</del></p>
+    <p class="narx">2 359 000</p>
+  </div>
+  </div>
+  <div class="telefon4">
+  <div class="image-container">
+      <img src="./planshet/planshet4/ckim6v4jvf2sulnv65g0.jpg" alt="Rasm" class="image" width="227px" height="302px">
+      <i class="icon fas fa-heart heart"></i> 
+  </div>
+  <div class="telefon-text">
+    <p class="tel-nomi">Planshet Samsung Galaxy Tap A9</p>
+    <p class="sharhlar">
+      ⭐4.8 (35 sharhlar)
+    </p>
+    <p class="nasiyaga">167 095 so'm/oyiga</p>
+    <p class="asli-n"><del>5 500 000</del></p>
+    <p class="narx">2 359 000</p>
+  </div>
+  </div>
+  <div class="telefon5">
+    <div class="image-container">
+        <img src="./planshet/planshet4/cpg69v3mdtjnp738eo2g.jpg" alt="Rasm" class="image" width="227px" height="302px">
+        <i class="icon fas fa-heart heart"></i> 
+    </div>
+    <div class="telefon-text">
+      <p class="tel-nomi">Planshet Samsung Galaxy Tap A9</p>
+      <p class="sharhlar">
+        ⭐4.8 (35 sharhlar)
+      </p>
+      <p class="nasiyaga">167 095 so'm/oyiga</p>
+      <p class="asli-n"><del>5 500 000</del></p>
+      <p class="narx">2 359 000</p>
+    </div>
+  </div>
+             </div>
+    </div>
+           <!-- boshqa baxsulotlar rasmi oxiri--> 
+
+            <!--oxirgi qismning boshi  -->
+      <div class="footer">
+        <p class="biz">Biz haqimizda <br>
+        <span class="kulrang">Topshirish punktlari <br> Vakansiyalar</span></p>
+        
+        <p class="biz">Foydalanuvchilarga <br>
+          <span class="kulrang">Biz bilan bog'lanish <br>Savol javoblar</span></p>
+  
+        <p class="biz">Tadbirkorlarga <br>
+          <span class="kulrang">Uzumda soting <br> Topshirish punktini ochish</span></p>
+  
+        <p class="biz">Ilvani yuklab olish <br>
+          <span class="kulrang"><i class="fa-brands fa-apple">AppStore</i> <img src="./Без названия.png" alt="" width="19px" height="14px">Google Play <br> Vakansiyalar</span></p>
+        
+      </div>
+      <div class="hr"><hr></div>
+      <div class="oxiri">
+       
+        <p class="kelishuv">Maxfiylik kelishuvi <span></span>Foydalanuvchi kelishuvi</p>
+        <p class="kel1">«2024© XK MCHJ «UZUM MARKET». STIR 309376127. Barcha huquqlar himoyalangan»</p>
+      </div>
+            <!-- oxirgi qisimning oxiri -->
+    <script src="./script.js"></script>
+    <script src="mi.js"></script>
+    <script src="olcham.js"></script>
+    <script src="redmi.js"></script>
+</body>
+</html>

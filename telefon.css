@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.image-container {
+  position: relative; 
+  display: inline-block; 
+}
+
+.image {
+  display: block; 
+  height: auto;
+}
+
+.icon {
+  position: absolute; 
+  top: 7%; 
+  left: 90%; 
+  transform: translate(-50%, -50%); 
+  color: white;
+  font-size: 18px; 
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 50%; 
+  padding: 7px;
+}
+
+
+.oxshash-tovarlar > .telefon-flex, .telefon-flex1{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.oxshash-tovarlar > h2{
+  display: flex;
+  justify-content: left;
+  margin-left: 18%;
+}
+
+.telefon-text  {
+font-weight: 400;  
+line-height: 10px;
+font-size: 14px;
+}
+
+.telefon:hover, .image-container:hover .image{
+  -webkit-box-shadow: 0px 3px 9px -1px rgba(201, 201, 201, 0.72);
+  -moz-box-shadow: 0px 3px 9px -1px rgba(201, 201, 201, 0.72);
+  box-shadow: 0px 3px 9px -1px rgba(201, 201, 201, 0.72);
+  transition: all 0.6s ease;
+}
+
+.image {
+  display: block; 
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover .image {
+  transform: scale(1.03); 
+}
+
+
+.tel-nomi{
+  line-height: 1px;
+  font-size: 15px;
+}
+
+.sharhlar{
+  color: gray;
+  font-size: 12px;
+  
+}
+
+.nasiyaga{
+  background-color: yellow;
+  display: inline;
+  padding:2px 4px;
+  font-size: 12px;
+}
+
+.asli-n{
+  margin-top: 3rem;
+  font-size: 12px;
+  color: gray;
+  line-height: 1px;
+  font-family: 'Roboto';
+}
+
+.narx{
+  font-size: 19px;
+}
+
+img{
+  border-radius: 12px;
+}
+
+.aksiya{
+  display: flex;
+}
+
+.navbar2 > .aksiya, .texnika {
+  font-size: 13px;
+}
+
+.texnika > a{
+  margin-left: 1rem;
+}
+
+.navbar2{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 0rem 1rem;
+}
+.aksiya> img{
+  width: 22px ;
+  height: 22px;
+}
+.navbar2 > .texnika > a{
+  color: grey;
+  text-decoration: none;
+}
+
+.texnika > a >i {
+ padding-left: 0.4rem;
+}
+
+.shopping, .span > a, .heart > i , .user{
+  
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-img > img{
+  width: 1216px;
+  height:405px;
+
+}
+
+.nav-img {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-b{
+  display: flex;
+}
+
+.nav-b > a{
+  display: flex;
+  margin: 1rem;
+  padding: 10px 12px 10px 8px;
+  background-color: #efefefef;
+  width: 259px;
+  height: 40px;
+  border-radius: 12px;
+}
+
+.nav-b > a > img{
+ width: 40px;
+ height: 40px;
+}
+
+.nav-b > a > img{
+  padding-right: 16px;
+}
+
+
+.search-container > i{
+  position: absolute;
+  
+}
+
+.search-container{
+  border: 1px solid ;
+}
+
+.qisqa-malumot > p > img{
+  margin-left: 1rem;
+}
+
+.qisqa-malumot > button{
+  margin-left: 1rem;
+  width: 117px;
+  height: 40px;
+  background-color: #ffffff;
+  border: #b5b3b3 solid 1px;
+  border-radius:12px
+}
+
+.aksa > p{
+  background-color: yellow;
+  padding: 2px 4px;
+  font-size: 10px;
+}
+
+ /* #button{
+  background-color: #c6c6c6;
+  color: white;
+  font-size: 14px;
+}  */

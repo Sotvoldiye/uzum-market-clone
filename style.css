@@ -1,0 +1,333 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+*{
+  justify-content: center;
+  font-family: 'inter', cursive;
+}
+
+/* navbar  boshi*/
+
+ .navbar{
+  display: flex;
+  margin:1rem 0 0 2rem;
+  gap: 1rem;
+}
+
+.logotip{
+ display: flex;
+ font-size: 20px;
+ width: 215px;
+}
+
+.logotip > span > a{  
+  font-family: 'roboto'sans-serif;
+  letter-spacing: 2px;
+  color: rgb(132, 1, 255);
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.logotip > img{
+  width: 25.5px;
+  height: 24px;
+}
+
+.button{
+  background-color: rgb(197, 210, 218);
+  color: rgb(132, 1, 255);
+  border-radius: 5px;
+  width: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size:14px;
+  height: 20px;
+  text-align: center;
+  
+} 
+
+.button:hover{
+  background-color:rgb(174, 175, 177);
+  transition: all 1.5s ease;
+}
+
+.search > input{
+  padding: 10px;
+  width: 400px;
+}
+
+.search > i{
+  padding: 11px;
+  border: none;
+  margin-right: 1rem;
+}
+
+.btn-kirish > button,
+.btn-saralangan > button,
+.btn-savat > button{ 
+  background-color:transparent;
+  border: none;
+  padding: 10px;
+  margin-right: 1rem;
+  font-size: 15px;
+  font-family: 'Ranchers', cursive;
+}
+
+.btn-kirish > button:hover,
+.btn-saralangan > button:hover,
+.btn-savat > button:hover{
+  background-color:rgb(148, 160, 168);
+  transition: all 0.5s ease;
+  border-radius: 5px;
+}
+.user{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+/* modal boshi */
+.hidden{
+  display: none;
+}
+
+.btn{
+  background-color: rgb(197, 210, 218);
+  color: #7000ff;
+}
+
+.modal-kirish{
+  position: fixed;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  width: 100%;
+  height: 500px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.modal-header > button{
+  background-color: rgb(221, 219, 219);
+  border: none;
+  font-size: 20px;
+  border-radius:50%;
+  color:#3d3d3d
+}
+
+.modal-header{
+  display: flex;
+  justify-content:flex-end
+}
+
+.modal-body{
+ text-align: left;
+ font-size: 19px;
+ padding-left:1rem
+}
+
+.modal-body > input{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  border:none;
+  background-color: #b6b4b4;
+  color: #fff;
+  border-radius:18px;
+  font-size: 20px;
+}
+
+.tel-raqam{ 
+  margin-top: 3rem;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 1rem;
+}
+
+.t-kod{
+  font-size:17px;
+  color: #605f5f;
+  padding-left: 1rem;
+}
+.submit{
+  width: 100%;
+  font-size:17px;
+  color: #ffffff;
+  background-color: #7000ff;
+  margin-top: 2rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 18px;
+}
+
+.yoqriqnoma {
+  text-align: center;
+  display: inline;
+  margin-left: 2rem;
+}
+/* modal oxiri */
+/* navbar oxiri*/
+
+/* body boshi */
+.mahsulotlar, .mahsulotlar2{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.mahsulot, .mahsulot2{
+  display: inline;
+  padding: 1rem;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  line-height: 25px;
+}
+
+.heart.active {
+  color: #fd0000
+}
+
+
+.mahsulot > button{
+  display: block;
+}
+
+.mahsulot > .coffe{
+  display: flex;
+  justify-content:space-between;
+}
+
+
+#signup-form > input {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  border: none;
+  background-color: #b6b4b4;
+  color: #fff;
+  border-radius:18px;
+  font-size: 20px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* body oxiri */
+
+/* footer */
+
+.footer{
+  display: flex;
+  gap: 9rem;
+  margin-top: 5rem;
+  padding: 2rem;
+
+}
+
+.biz{
+  font-size: 15px;
+  margin-top: 0.5rem;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-family: 'inert';
+}
+.kulrang{
+  color:gray;
+  font-family: 'roboto';
+  font-size: 13px;
+}
+.hr hr{
+  width: 73%;
+  color: #b6b4b4;
+}
+  .oxiri{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    font-family: 'inert';
+    
+  }
+  .kelishuv{
+   font-size: 16px;
+  }
+
+  .kel1{
+    font-size: 14px;
+    color: #616161;
+  }
+
+/* footer oxiri */
+
+a{
+display: inline;
+margin-left:2px;
+text-decoration: none;
+color:#000;
+}
+
+.komentSayora > .xotira{
+  font-size: 12px;
+}
+
+.ul{
+  display: flex;
+  
+}
+
+.ul1{
+  width: 500px;
+}
+
+.ul2{
+  width: 400px;
+}
+  
+
+.ul1 > ul > li,.ul2 > ul > li{
+  margin-bottom: 2rem;
+  font-family: 'roboto';
+  color: grey;
+  font-size: 14px;
+}
+
+.redmi-p{
+  width: 50%;
+  margin-left: 1rem;
+}
+
+.redmi{
+  width: 50%;
+}
+
+.redmi > .redmi-title, p{
+  color: black;
+  font-family: 'roboto';
+}
+
+.redmi-title{
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.redmi-body{
+color: gray;
+font-family: 'roboto';
+font-size: 14px;
+}

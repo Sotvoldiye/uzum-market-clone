@@ -1,0 +1,234 @@
+@media (max-width: 1368px){
+  .span{
+    display: none;
+  }
+
+  .search > input{
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .search > i{
+    padding: 11px;
+    border: none;
+    margin-right: 1rem;
+  }
+  
+  .navbar > button > i{
+    font-size:20px
+  }
+
+  .icon-flex{
+    display: flex;
+  }
+
+  .texnika8{
+    display: none;
+  }
+
+  .nav-img{
+    width: 80%;
+    margin-left:10%
+  }
+
+  .nav-b > a{
+    display: flex;
+    padding: 5px 7px 7px 5px;
+    background-color: #efefefef;
+    width: 200px;
+    height: 30px;
+    border-radius: 12px;
+  }
+
+  .nav-b > a > img{
+    width: 30px;
+    height: 30px;
+   }
+
+   .telefon5{
+    display: none;
+   }
+
+   .img01{
+    margin-left: 2rem;
+   }
+
+   .body{
+    display: flex;
+    justify-content: left;
+    margin-left: -9%;
+  }
+  .img1> img, .img2 > img{
+    width:250px ;
+    height: 490px;
+  }
+
+  .img1{
+    margin-left: -5%;
+    margin-right: -12%;
+  }
+
+  .img{
+    display: flex;
+    justify-content:left;
+  }
+
+   .coffe8, .coffe9{
+    display: none;
+  }
+
+  .comentarya{
+    display: inline-block;
+  }
+
+  .comentarya >.komentSayora{
+    display: inline-block;
+    width: 650px;
+  }
+
+  .narxi-yetkazib{
+    margin-left: -11%;
+  }
+
+  .narxi, .yetkazib-berish{
+    width: 350px;
+    height: 353px;
+    border-radius: 2px solid black;
+    padding:2%;
+  }
+
+  .son{
+    margin:0;
+  }
+
+  .qarz{
+    margin:0;
+    padding-top: 19px;
+    padding-bottom: 1px;
+    width: 300px;
+    height: 38px;
+    font-size: 12px;
+    margin-right: 0;
+  }
+
+  .qarz > span{
+    font-size: 16px;
+    padding-right: 1px;
+  }
+  .qarz > i{
+    padding-right: 1px;
+  }
+  .sotibolish {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sotibolish > .text{
+    padding-top:18px ;
+    padding-left: 29px;
+    padding-right: 29px;
+  }
+
+  .sotibolish > .like{
+    margin-right: 15%;
+    width: 30px;
+    margin-left: 69px;
+  }
+  
+  .narxi > .button{
+    padding-top: 19px;
+    padding-right: 7rem;
+    padding-left:7rem;
+  }
+
+  .dokon{
+    width: 350px;
+
+  }
+
+
+
+  .flex{
+    display:flex;
+    justify-content: left;
+    width: 350px
+  }
+
+  .jacobs{
+   font-size: 14px;
+  }
+
+  .otish{
+    padding-left: 115px;
+    padding-right:115px;
+  }
+
+  .hammasi > a{
+    display: flex;
+   
+  }
+
+  .mahsulotboshi{
+    display: flex;
+    justify-content: left;
+    margin-left: 1px;
+    width: 450px;
+
+  }
+
+  .malumot {
+    display: flex;
+    width: 700px;
+    
+  }
+
+  .reyting{
+    margin-left: 1rem;
+  }
+
+  #click1, #click2, #click3{
+    margin-top: 1rem;
+  }
+
+  .telefon5{
+    display: none;
+  }
+
+  .oxshash-tovarlar > .h2{
+   font-size: 28px;
+   margin-left: 5rem;
+  }
+}
+
+
+
+.icon-flex{
+  display: flex;
+}
+
+/* @media (max-width:958px){
+.navbar2{
+  display: none;
+}
+
+.button{
+  display: none;
+}
+
+.icon-flex{
+  display:none
+}
+
+.logotip >img, a{
+  display: block;
+}
+.search-container{
+ display: block;
+}
+} */
+
+
+.img1, .img2{
+  width: 351px;
+  height: 490px
+}
