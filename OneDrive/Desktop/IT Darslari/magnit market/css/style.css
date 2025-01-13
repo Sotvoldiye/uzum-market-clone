@@ -1,0 +1,315 @@
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+
+body {
+  font-family: 'Pacifico', handwriting;
+}
+body {
+  font-family: 'Inconsolata', monospace;
+  background-color: #a6bffa;
+}
+
+.buyurtma{
+  background-color: rgb(47, 255, 71);
+  padding: 5px 30px;
+  border-radius: 4px;
+  opacity: 0.4;
+  color: rgb(247, 25, 255);
+  margin-bottom: 1rem;
+}
+
+.xatolik > i, .buyurtma > i {
+
+  padding: 4px 4px;
+  background-color: transparent;}
+
+
+.xatolik{
+  background-color: #f2a9a9;
+  border-radius:5px;
+  opacity: 0.4;
+  padding: 10px 20px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+.logotip{
+  font-size: 33px;
+  font-family: 'Inconsolata';
+  color: #ea0e0e;
+  font-weight: 900;
+}
+
+.logotip span{
+  color: #0048ff;
+}
+
+.logotip a{
+  text-decoration: none;
+  color: #ea0e0e;
+}
+
+.search{
+  padding: 7px ;
+}
+
+.search input{
+  width: 300px;
+  padding: 7px;
+  border-radius: 7px;
+  border: 1px solid grey;
+}
+
+.account-yaratish{
+  padding: 5px;
+}
+
+.account-yaratish button, .saralangan button{
+  padding: 7px;
+  background-color: #0048ff;
+  border: none;
+  color: rgb(205, 203, 203);
+  border-radius: 5px;
+}
+
+.saralangan{
+  padding: 7px;
+}
+
+.nav2{
+  display: flex;
+  justify-content:space-around;
+}
+
+.res{
+  display: none;
+}
+
+.nav2 a{
+  color: rgb(155, 155, 155);
+  text-decoration: none;
+  font-size: 17px;
+}
+/* navigatsiya oxiri */
+/* body boshi */
+
+.great-img {
+  display:flex;
+  font-family: 'Pacifico';
+  font-size: 60px;
+  font-weight: 100;
+  justify-content: center;
+  line-height: 77px;
+  letter-spacing: 7px;
+}
+
+.rasmlar{
+  width: 250px;
+  display: grid;
+  margin-top: 3%;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin-left: 5%;
+  
+}
+
+.rasmlar > div {
+  padding: 2px;
+  border: 1px dashed rgb(100, 77, 77);
+  border-radius: 5px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #5a8ac8;
+  color: #fff;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+@media(min-width:1310px){
+ 
+  .logotip{
+    font-size:50px;
+    margin: 5px;
+  }
+
+.search{
+  margin: 10px;
+  padding: 0;
+}
+
+  #search{
+    width: 800px;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .account-yaratish{
+    margin: 10px;
+  }
+ 
+  .fa-user, .fa-heart{
+    font-size:17px;
+  }
+
+  .saralangan{
+    margin: 10px;
+  }
+
+  .nav2{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+    .res{
+      display: inline;
+    }
+
+  .rasmlar{
+    width: 250px;
+    margin-top: 2%;
+    margin-left: 13%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+
+  /* sabzi html start */
+  .mahsulot-haqida-malumot{
+    display:inline-block;
+    margin-left: 6%;
+    width: 94%;
+  }
+   .imgs{
+     margin-left: 10%;
+  }
+
+  .imgs > img{
+    width: 500px;
+    height: 700px;
+  }
+
+  .sotib-olish{
+    width: 62%;
+    margin-left: 16%;
+  }
+
+  footer{
+    margin-top:5%;
+  }
+
+}
+
+.username, .password, .manzil, .tel {
+  font-size: 20px;
+  border: none;
+  background-color: #0048ff;
+  margin-bottom: 1rem;
+  padding: 7px 17px;
+  border-radius: 12px;
+}
+
+
+/* sabzi.html boshi */
+
+.mahsulot-haqida-malumot{
+  color: #0048ff;
+}
+
+.sotish-b{
+  width: 86.5%;
+  margin-top: 1rem;
+  padding: 10px ;
+  border-radius: 12px;
+  border: none;
+  background-color: #0048ff;
+  color: #de6e6e;
+  font-size:21px;
+}
+
+.sotib-olish1{
+  position: fixed;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  width: 100%;
+  height: 200px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.sotib-olish1 p{
+  font-size: 20px;
+}
+
+.sotib-olish2{
+  position: fixed;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -70%);
+  max-width: 400px;
+  width: 100%;
+  height: 500px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.hidden{
+  display: none;
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.fa-close{
+display:block;
+margin-left: 93%;
+padding: 7px;
+background-color:#0048ff;
+border-radius: 5px;  
+color: #ea0e0e;
+}
+
+.mahsulot-haqida-malumot{
+  font-size: 24px;
+  color: #0048ff;
+}
+
+.narx{
+  color: #de6e6e;
+}
+
+.harid-qilish > button{
+  color: #0048ff;
+  border: none;
+  font-size: 24px;
+  padding: 10px 110px;
+  border-radius:7px;
+  background-color: #ea0e0e;
+}
+
+.tel{
+  width: 260px;
+}

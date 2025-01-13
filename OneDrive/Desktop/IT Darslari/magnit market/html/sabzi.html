@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+
+  <div class="buyurtma hidden" id="togri"> <i class="fas fa-close" id="close-t"></i>Buyurtmangiz qabul qilindi</div>
+  <div class="xatolik hidden" id="xato"> <i class="fas fa-close" id="close-x"></i>Buyurtma berishda xatolikka yo'l qo'ydingiz!!!</div>
+
+  <nav>
+    <div class="logotip"><a href="index.html">Magnit<span>Market</span></a>
+    </div>
+
+    <div class="search"><form action="">
+      <input type="search" name="" id="search" placeholder="Mahsulotni qidiring!">
+    </form>
+    </div>
+    <div class="account-yaratish" id="modal-button">
+      <div  id="fa-user">
+        <button id="inner-button" ><i class="fas fa-user" > Kirish</i></button>
+      </div>
+    </div>
+      <div class="sotib-olish1 hidden" id="modal">
+        <div class="modal-content">
+          <i class="fas fa-close" id="close-btn"></i>
+          <form action="">
+            <input type="text" class="username" id="username" placeholder="Username">
+            <input type="password" name="password" class="password" id="password" placeholder="Password">
+       <div class="harid-qilish">   
+        <button id="button">Tasdiqlash</button>
+        </div>
+          </form>
+  
+      </div>
+    </div>
+    <div class="saralangan">
+      <button><i class="fas fa-heart"> Tanlangan</i></button>
+    </div>
+    <div class="overlay hidden" id="overlay"></div> 
+    </nav>
+ 
+    <div class="nav2">
+      <a href="Sabzavotlar.html">Sabzavotlar</a>
+      <a href="mevalar.html">Mevalar</a>
+      <a href="Shirinliklar.html">Shokaladlar</a>
+      <a href="suv.html">Suv</a>
+      <a href="gosht.html">Go'sht mahsulotlari</a>
+      <a href="tuzlangan.html">Tuzlangan mhasulotlar</a>
+      <a href="muzqaymoq.html">Muzqaymoqlar</a>
+      <a class="res" href="#">Sutli mahsulotlar</a>
+      <a class="res" href="#">Tamaki mahsulotlari</a>
+      <a class="res" href="#">Shirinliklardan Asortiment</a>
+      <a class="res" href="#">Pishiriqlar</a>
+
+    </div>
+
+    <div class="mahsulot-haqida-malumot">
+      <h1>Qizil Sabzi 1kg 4000so'm</h1>
+      <h3>Qolgan mahsulot: 15kg</h3>
+      <div class="imgs">
+      <img class="mahsulot-rasmi" src="../imgs/sabzi.jpg" alt="" width=" 400px" height="600px">
+      <img src="../imgs/sabzi.jpg" alt="" width="400px" height="600px">
+    </div>
+    </div>
+    <div class="sotib-olish">
+      <button class="sotish-b" id="sotib-b">Sotib olish</button>
+    </div>
+    <div class="sotib-olish2 hidden" id="modal1">
+      <div class="close">
+      <i class="fas fa-regular fa-close" id="close"></i>
+      </div>
+      <label for="show" class="mahsulot-haqida-malumot">
+        <button id="minus">-</button>
+        <span id="son">0</span>
+        <button id="plus">+</button></label>
+         Kg tanlash: 
+  <div class="narxi">
+  <p class="narx" id="narx">narxi 4000 so'm </p>
+  <div class="yetkazib-berish">
+    <div class="malumot">
+      <input type="text" class="username" id="username" placeholder="Ismingizni kiriting">
+      <input type="text"class="username" id="password" placeholder="Familyangizni kiriting">
+      <p>To'lash usuli:</p>
+      <p>Naqd</p>
+      <form id="signup-form">
+        <input type="text" class="tel" id="tel" placeholder="Telefon raqamingizni kiriting" />
+        <div class="message"></div>
+      </form>
+    </div>
+  </div>
+  <div class="harid-qilish" id="buyurtma">
+    <button>Buyurtma berish</button>
+  </div>
+  </div>
+    </div>
+    <div class="overlay hidden" id="overlay"></div>
+    <div class="boshqa-max">
+     
+      <div class="rasmlar">
+        <div class="rasm1">
+          <img src="../imgs/sabzi.jpg" alt="" width="200px" height="250px">
+         <div class="mahsulot">
+          <p class="mahsulot"><a href="sabzi.html">Sabzi</a></p>
+          <p><i class="fa fa-heart"></i></p>
+          </div>
+          <p>Narxi: 1kg 5000 so'm</p>
+          <p>Sotib olish</p>
+        </div>
+        <div class="rasm2">
+          <img src="../imgs/gosht.jpg" alt="" width="200px" height="250px">
+          <p class="mahsulot">Go'sht</p>
+          <p><i class="fa fa-heart"></i></p>
+          <p>Narxi: 1kg 100000 so'm</p>
+          <p>Sotib olish</p>
+        </div>
+        <div class="rasm3">
+          <img src="../imgs/sut.jpg" alt="" width="200px" height="250px">
+          <p class="mahsulot">Sut</p>
+          <p><i class="fa fa-heart"></i></p>
+          <p>Narxi: 1l 12000 so'm</p>
+          <p>Sotib olish</p>
+        </div>
+        <div class="rasm4">
+          <img src="../imgs/pepsi.jpg" alt="" width="200px" height="250px">
+         <div class="mahsulot">
+          <p class="mahsulot">Pepesi</p>
+          <p><i class="fa fa-heart"></i></p>
+          </div>
+          <p>Narxi: 1.5 l 12000 so'm</p>
+          <p>Sotib olish</p>
+        </div>
+        <div class="rasm5">
+          <img src="../imgs/kefir.jpg" alt="" width="200px" height="250px">
+          <p class="mahsulot">Kefir</p>
+          <p><i class="fa fa-heart"></i></p>
+          <p>Narxi: 0.5l  4000so'm</p>
+          <p>Sotib olish</p>
+        </div>
+        <div class="rasm6">
+          <img src="../imgs/tvorog.jpg" alt="" width="200px" height="250px">
+          <p class="mahsulot">Tvorog</p>
+          <p><i class="fa fa-heart"></i></p>
+          <p>Narxi: 1kg 20000 so'm</p>
+          <p>Sotib olish</p>
+        </div>
+        <div class="rasm7">
+          <img src="../imgs/fanta.jpg" alt="" width="200px" height="250px">
+         <div class="mahsulot">
+          <p class="mahsulot">Fanta</p>
+          <p><i class="fa fa-heart"></i></p>
+          </div>
+          <p>Narxi: 1.5l  12000 so'm</p>
+          <p>Sotib olish</p>
+        </div>
+        <div class="rasm8">
+          <img src="../imgs/non.jpg" alt="" width="200px" height="250px">
+          <p class="mahsulot">Non</p>
+          <p><i class="fa fa-heart"></i></p>
+          <p>Narxi: 1dona 5000 so'm</p>
+          <p>Sotib olish</p>
+        </div>
+        <div class="rasm9">
+          <img src="../imgs/muzqaymoq.jpg" alt="" width="200px" height="250px">
+          <p class="mahsulot">Briket</p>
+          <p><i class="fa fa-heart"></i></p>
+          <p>Narxi: 1dona 10000 so'm</p>
+          <p>Sotib olish</p>
+        </div>
+        <div class="rasm10">
+          <img src="../imgs/kalbosa.jpg" alt="" width="200px" height="250px">
+         <div class="mahsulot">
+          <p class="mahsulot">To'xtaniyoz ota</p>
+          <p><i class="fa fa-heart"></i></p>
+          </div>
+          <p>Narxi: 1kg 70000 so'm</p>
+          <p>Sotib olish</p>
+        </div>
+        <div class="rasm11">
+          <img src="../imgs/kartoshka.webp" alt="" width="200px" height="250px">
+          <p class="mahsulot">Kartoshka</p>
+          <p><i class="fa fa-heart"></i></p>
+          <p>Narxi: 1kg 5000 so'm</p>
+          <p>Sotib olish</p>
+        </div>
+        <div class="rasm12">
+          <img src="../imgs/alpengold.jpg" alt="" width="200px" height="250px">
+          <p class="mahsulot">Sabzi</p>
+          <p><i class="fa fa-heart"></i></p>
+          <p>Narxi: 1dona 12000 so'm</p>
+          <p>Sotib olish</p>
+        </div>
+      </div>
+
+      <footer>
+        <p><a href="sayt.html">Sayt haqida</a></p>
+        <p><a href="serifikat.html">Mahsulotlar haqida</a></p>
+        <p><a href="map.html">Manzil</a></p>
+      </footer>
+    <script src="../fayl.js/script.js"></script>
+    <script src="../fayl.js/kirish.js"></script>
+    <script src="../fayl.js/option.js"></script> 
+    <script src="../fayl.js/buyrutma.js"></script>
+
+
+</body>
+</html>
